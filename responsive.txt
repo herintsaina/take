@@ -1,0 +1,392 @@
+/********* new Responsive *************
+
+@media (min-width: 460px){
+
+    .container .row .box-grid-item {
+        width: 100%;
+        margin-left: 0;
+    }
+
+}
+
+@media (min-width: 850px){
+    #description .container .argument {
+        margin-top: -245px;
+    }
+
+    .container .row .phone {
+        right: 130px;
+        top: 168px;
+        height: 420px;
+    }
+}
+
+/******** RESPONSIVE *******
+
+@media screen and (max-width: 1400px) {
+
+    #buying .container .shot{
+        flex-wrap: inherit;
+    }
+
+    .container .row .personnal {
+        width: 50%;
+    }
+
+    #footer .container .remarque{
+        flex-wrap: inherit;
+        width: 90%;
+    }
+
+    .container .row .box-grid-item a {
+        font-size: 1.25rem;
+    }
+
+    .container .row .box-grid-item a i{
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .container .row .phone{
+        right: 120px;
+        top: 181px;
+        height: 551px;
+    }
+
+}
+
+@media screen and (max-width: 1120px){
+    #description {
+        margin-top: 1px;
+    }
+
+}
+
+@media screen and (max-width: 1115px){
+    #description .container .row .reactif{
+        margin-top: -175px;
+    }
+
+    #description .container .argument{
+        margin-top: -100px;
+    }
+
+}
+
+@media screen and (max-width: 1000px){
+    .container .row .phone {
+        right: 160px;
+        top: 187px;
+        height: 445px;
+    }
+
+    .container .row .intro {
+        margin-top: 105px;
+        width: 50%;
+    }
+
+    #description {
+        margin-top: -195px;
+    }
+
+    #description .container .row .reactif {
+        margin-top: 0px;
+    }
+
+    .container .row .new {
+        width: 100%;
+    }
+
+    .container .row .box-grid-item{
+        width: 50%;
+    }
+
+    .container .row .clients{
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+    }
+
+    #buying .container .shot{
+        flex-wrap: inherit;
+    }
+
+    #footer .container .remarque{
+        flex-wrap: inherit;
+    }
+}
+
+
+@media screen and (max-width: 900px){
+    .container .row .new {
+        width: 100%;
+    }
+
+    #description .container .row .reactif {
+         margin-top: 0;
+    }
+
+    #description {
+        margin-top: -270px;
+    }
+
+    .container .row .phone {
+        right: 145px;
+        top: 158px;
+        height: 400px;
+    }
+
+}
+
+@media screen and (max-width: 985px){
+    #description {
+        margin-top: -170px;
+    }
+
+
+}
+
+@media screen and (max-width: 953px){
+    .container .row .phone {
+        right: 130px;
+        top: 168px;
+        height: 445px;
+    }
+
+
+}
+
+@media screen and (max-width: 875px){
+    #description {
+        margin-top: -225px;
+    }
+
+}
+
+@media screen and (max-width: 860px){
+    .container .row .phone {
+        right: 130px;
+        top: 168px;
+        height: 420px;
+    }
+
+}
+
+@media screen and (max-width: 840px){
+    #description {
+        margin-top: -285px;
+    }
+
+
+}
+
+@media screen and (max-width: 810px){
+    .container .row .phone{
+        right: 87px;
+        top: 142px;
+        height: 412px;
+    }
+
+
+}
+
+@media screen and (max-width: 800px){
+    #masthead{
+        height: 100%;
+        background-size: cover;
+        background-position: bottom;
+    }
+
+    .container .row .phone{
+        display: none;
+    }
+
+    #description {
+        margin-top: 285px;
+    }
+
+    .container .row .intro {
+        margin-top: 90px;
+        width: 100%;
+        margin-bottom: 190px;
+    }
+
+}
+
+@media screen and (max-width: 790px){
+    #description {
+        height: auto;
+        margin-top: 285px;
+    }
+
+    #description .container .argument{
+        margin-top: 150px;
+    }
+
+    .container .row .intro {
+        margin-top: 90px;
+        width: 100%;
+        margin-bottom: 190px;
+    }
+
+    .container .row .box-grid-item {
+        font-size: 15px;
+    }
+
+    .container .row .box-grid-item h2{
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (max-width: 780px){
+    #buying .container .shot{
+        flex-wrap: inherit;
+    }
+
+}
+
+@media screen and (max-width: 765px){
+
+    .container .row .intro {
+        margin-top: 90px;
+        width: 100%;
+        margin-bottom: 170px;
+    }
+
+    #description .container .argument{
+        margin-top: 150px;
+    }
+
+    .container .information .detail .blockitems {
+        font-family: 'open_sans', serif;
+        width: 50%;
+    }
+
+    #buying .container .shot{
+        flex-wrap: wrap;
+    }
+
+    .container .row .personnal {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    #footer .container .remarque{
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+
+    #footer .container .row .resource{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    #footer .container .row .commenter{
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 650px){
+    /*TAILLE*
+
+    #masthead .container header {
+        width: 75%;
+        margin-left: 50px;
+    }
+
+    #masthead .container .row .intro {
+        width: 75%;
+        margin-left: 50px;
+    }
+
+    #description {
+        margin-top: 285px;
+        width: 75%;
+        margin-left: 50px;
+    }
+
+    .container .row .box-grid-item {
+        width: 75%;
+        margin-left: 50px;
+    }
+    .container .information {
+        width: 75%;
+        margin-left: 50px;
+    }
+
+    .container .row .voiture {
+        width: 75%;
+        margin-left: 50px;
+    }
+
+    .container .row .voiture .compliment p{
+        width: 100%;
+    }
+
+    .container .information .detail .blockitems {
+        width: 100%;
+    }
+
+    .container .row .personnal {
+        width: 75%;
+        margin-left: 50px;
+    }
+
+    #footer .container .remarque {
+        width: 75%;
+        margin-left: 50px;
+    }
+
+    #footer .container .row .resource {
+        width: 30%;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 639px){
+    #buying .container .shot {
+        flex-wrap: wrap;
+    }
+}*/
+
+
+
+
+/*
+@media screen and (max-width: 280px) {
+    .container .row .box-grid-item h2 {
+        font-size: 20px;
+    }
+
+    .container .row .box-grid-item a {
+        font-size: 15px;
+    }
+
+    .container .row .box-grid-item a i{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    .container .row .box-grid-item h2 {
+        font-size: 15px;
+    }
+
+    .container .row .box-grid-item a {
+        font-size: 12px;
+    }
+
+    .container .row .box-grid-item a i{
+        font-size: 10px;
+        margin-top: 8px;
+    }
+}
