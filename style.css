@@ -8,12 +8,12 @@
 @font-face {
     font-family: 'merriweather';
     src: url("assets/fonts/merriweather/Merriweather-BlackItalic.ttf");
-    src: url("assets/fonts/merriweather/Merriweather-Black.ttf");
-         url("assets/fonts/merriweather/Merriweather-Bold.ttf");
-        url("assets/fonts/merriweather/Merriweather-BoldItalic.ttf");
-        url("assets/fonts/merriweather/Merriweather-Italic.ttf");
-        url("assets/fonts/merriweather/Merriweather-Light.ttf");
-        url("assets/fonts/merriweather/Merriweather-LightItalic.ttf");
+    src: url("assets/fonts/merriweather/Merriweather-Black.ttf"),
+         url("assets/fonts/merriweather/Merriweather-Bold.ttf"),
+        url("assets/fonts/merriweather/Merriweather-BoldItalic.ttf"),
+        url("assets/fonts/merriweather/Merriweather-Italic.ttf"),
+        url("assets/fonts/merriweather/Merriweather-Light.ttf"),
+        url("assets/fonts/merriweather/Merriweather-LightItalic.ttf"),
         url("assets/fonts/merriweather/Merriweather-Regular.ttf");
 
 }
@@ -343,6 +343,49 @@ header span{
     #boxGrid .container .row .col-md-8{
         width: 100%;
     }
+
+
+    /***** detail ********/
+
+    .card-body.detail .row{
+        flex-direction: column;
+    }
+
+    .container .information .detail .blockitems{
+        width: 100%;
+    }
+}
+
+/****** tablette *****/
+
+@media (min-width:768px) {
+    /***** header ******/
+    header img {
+        width: 40px;
+        height: 40px;
+    }
+
+    header span {
+        font-size: 30px; 
+    }
+
+    /**** banner ***/
+
+    .container .row .intro h1 {
+        font-size: 55px;
+    }
+
+    .container .row .intro p {
+        font-size: 25px;
+    }
+
+    #description .container .row h1 {
+        font-size: 55px;
+    }
+
+    #description .container .row p {
+        font-size: 25px;
+    }
 }
 
 
@@ -424,3 +467,4 @@ header span{
     }
 
 }
+
