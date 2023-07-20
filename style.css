@@ -142,11 +142,11 @@ header span{
 }
 
 .container .row .clients{
-    background-image: url("images/photo2.png");
+    background-image: url("./images/photo2.png");
 }
 
 .container .row .sign{
-    background-image: url("images/photo3.png");
+    background-image: url("./images/photo3.png");
 }
 /*Box yellow*/
 .container .row .pictures{
